@@ -1,0 +1,26 @@
+{
+  "name": "fretboard",
+  "version": "0.0.0",
+  "description": "Draw fretboards",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/fretboard.git"
+  },
+  "keywords": [
+    "fretboard",
+    "guitar",
+    "widget"
+  ],
+  "author": "danigb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/fretboard/issues"
+  },
+  "homepage": "https://github.com/danigb/fretboard#readme",
+  "dependencies": {
+  }
+}
