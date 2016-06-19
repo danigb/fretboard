@@ -4,4 +4,4 @@
 
 Draw fretboards on canvas.
 
-Work in progress: `beefy example/test1.js`
+Work in progress. See demo: https://danigb.github.io/fretboard/example/
