@@ -5,3 +5,5 @@
 Draw fretboards on canvas.
 
 Work in progress. See demo: https://danigb.github.io/fretboard/example/
+
+Currently code lives in: `example/assets/fretboard.js`

@@ -11,13 +11,22 @@
     <h1>Fretboard</h1>
 		<h3>C major scale</h3>
 		<canvas id="CMajor"></canvas>
+		<h3>A major scale</h3>
+		<canvas id="AMajor"></canvas>
   </div>
   <script type="text/javascript" src="assets/tonal-fretboard.min.js"></script>
   <script type="text/javascript" src="assets/fretboard.js"></script>
 	<script>
 		Fretboard.init(document.getElementById('CMajor'), {
 			notes: TonalFretboard.scale('guitar', 'C D E F G A B', 1, 6),
-			noteColors: { 'C': 'orange' }
+			color: '#9ACDFE',
+			noteColors: { 'C': 'orange', 'G': '#208BF2', 'E': '#49A4FB', 'F': '#efefef' }
+		})
+		Fretboard.init(document.getElementById('AMajor'), {
+			notes: TonalFretboard.scale('guitar', 'A B C# D E F# G#', 1, 12),
+			width: 600,
+			color: '#9ACDFE',
+			noteColors: { 'A': 'orange', 'E': '#208BF2', 'C#': '#49A4FB', 'D': '#efefef' }
 		})
 	</script>
 </body>

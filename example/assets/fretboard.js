@@ -47,7 +47,7 @@ function drawNotes (ctx, fb) {
       note = fb.notes[s][f]
       if (note) {
         x = f * fb.fretSize + fb.fretSize / 2
-        y = s * fb.stringDist + fb.marginY
+        y = fb.height - (s * fb.stringDist + fb.marginY)
         ctx.fillStyle = getNoteColor(note, fb)
         drawCircle(ctx, x, y, r)
         ctx.fillStyle = '#000'
